@@ -1,0 +1,159 @@
+.background_dark
+ &::before
+  content: ""
+  display: block
+  position: absolute
+  left: 0
+  top: 0
+  width: 100%
+  height: 100%
+  background-color: rgba(0, 0, 0, 0.7)
+  z-index: -1
+.button
+ height: 60px
+ width: 340px
+ background-color: transparent
+ border: 2px solid #ffffff
+ color: #ffffff
+ font-family: "Museo Sans Cyrl 700"
+ font-size: 20px
+ font-weight: 700
+ line-height: 48px
+ text-transform: uppercase
+ letter-spacing: 0.5px
+ cursor: pointer
+ border-radius: 10px
+ &:hover
+  background-color: #5ba2a9
+.popup    
+ padding: 15px 0 56px 0
+ position: fixed
+ top: 50%
+ margin-top: -212px
+ left: 50%
+ margin-left: -500px
+ display: none
+ flex-wrap: wrap
+ justify-content: space-between
+ width: 1000px 
+ background-color: #fff
+ z-index: 99999999
+ justify-content: center
+ flex-wrap: wrap
+ &-thx
+  padding: 44px 0 100px 0
+  position: fixed
+  top: 50%
+  margin-top: -214px
+  left: 50%
+  margin-left: -500px
+  display: none
+  flex-wrap: wrap
+  justify-content: space-between
+  width: 1000px 
+  background-color: #fff
+  z-index: 99999999
+  justify-content: center
+  flex-wrap: wrap
+ &-title
+  color: #465065
+  font-family: Montserrat
+  font-size: 20px
+  font-weight: 700
+  line-height: 36px
+  text-transform: uppercase
+  width: 100%
+  text-align: center
+ &-text
+  color: #9aa0ab
+  font-family: Montserrat
+  font-size: 25px
+  font-weight: 400
+  line-height: 22px
+  padding-top: 20px
+ &-close
+  width: 100%
+  text-align: right
+  color: #dbdbdd
+  margin-right: 50px
+  font-size: 70px
+  font-family: Montserrat
+  font-weight: 300
+  cursor: pointer
+  &:hover
+   color: #5ba2a9
+  &-thx
+   width: 100%
+   text-align: right
+   color: #dbdbdd
+   margin-right: 50px
+   font-size: 70px
+   font-family: Montserrat
+   font-weight: 300
+   cursor: pointer
+   &:hover
+    color: #5ba2a9
+ &__form
+  display: flex
+  justify-content: center
+  flex-wrap: wrap
+  width: 600px
+ &-form__input
+  margin-left: 20px
+  border-radius: 10px
+  padding-left: 5px
+ &-form__label
+  display: flex
+  flex-direction: row
+  margin-top: 20px
+  width: 100%
+  justify-content: center
+  color: #9aa0ab
+  font-family: Montserrat
+  font-size: 25px
+  font-weight: 400
+  line-height: 22px
+  padding-top: 20px
+  align-items: center
+ &-form__btn
+  border: none
+  transition: 0.8s
+  background-color: #5ba2a9
+  display: flex
+  justify-content: center
+  align-items: center
+  width: 371px
+  height: 44px
+  border-radius: 10px
+  margin: 60px auto 0 auto
+  text-decoration: none
+  color: #ffffff
+  text-transform: uppercase
+  font-size: 15px
+  font-weight: 700
+  line-height: 48.38px
+  font-family: Montserrat
+  &:hover
+   transition: 0.8s
+   color: #fa5c65
+   background-color: #fff
+   box-shadow: 0 0 0 999999px rgba(0, 0, 0, 0.8)
+   z-index: 10
+.overlay
+ z-index: 9999999
+ position: fixed
+ width: 100vw
+ height: 100vh
+ background-color: rgba(0, 0, 0, 0.9)
+ top: 0
+ left: 0
+ display: none
+ &-thx
+  z-index: 9999999
+  position: fixed
+  width: 100vw
+  height: 100vh
+  background-color: rgba(0, 0, 0, 0.9)
+  top: 0
+  left: 0
+  display: none
